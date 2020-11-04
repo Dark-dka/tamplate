@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #2d3436;
+    min-height: 100vh;
+    background-image: url(3300x1800-px-47-ART-artwork-background-fantasy-original-wallpapers-1813027.jpg);
+    
+}
+.login-box{
+    width: 320px;
+    height: 460px;
+    background-color: #ffffff;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 15px;
+  
+   
+}
+.login-title{
+    text-align: center;
+    margin: 50px 0;
+    
+}
+.login-form input{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-bottom: 1px solid;
+    width: 90%;
+    color: white;
+    transition: all 0.9s ease;
+    
+   
+   
+}
+.login-form input[placeholder]{
+    padding: 18px;
+    font-size: 14px;
+} 
+.Login-btn{
+   margin: 60px 0;
+   width: 95%;
+   height: 40px;
+   border: none;
+   outline: none;
+  background-color:#0652DD ;
+  color: white;
+  cursor: pointer;
+  transition: .4s ease;
+ 
+}
+.login-form input:focus{
+    color: #000000;
+    border-color: black;
+    width: 90%;
+    
+}
+input :focus::-webkit-input-placeholder{
+    color: black;
+}
+
+.Login-signup{
+    text-align: center;
+    
+}
+.sign{
+    text-decoration: none;
+}
+.Login-btn:hover{
+    background: darkblue;
+}
+ .ico1{
+     width: 35px;
+     padding: 20px 0;
+     cursor: pointer;
+ }
+.ico2{
+    width: 35px;
+    padding: 20px 0;
+  margin-left: 240px;
+  cursor: pointer;
+}

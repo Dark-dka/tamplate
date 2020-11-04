@@ -1,0 +1,25 @@
+html{
+    background-color: grey;
+}
+.red{
+    margin: 25%;
+    text-align: center;
+}
+.duck{
+    text-decoration: none;
+    background-color: transparent;
+    border:2px solid black;
+    color:black;   
+    padding: 30px 70px;
+    transition: all 0.9s ease;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+.duck:hover{
+    background-color: black;
+    color: white;   
+
+}
+
+ 
